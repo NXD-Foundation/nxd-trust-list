@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#"
+    xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#"
+    xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#"
+    xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#"
+    xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" TSLTag="https://uri.etsi.org/19612/TSLTag/">
+    <SchemeInformation>
+        <TSLVersionIdentifier>5</TSLVersionIdentifier>
+        <TSLSequenceNumber>1</TSLSequenceNumber>
+        <TSLType>https://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric/</TSLType>
+        <SchemeOperatorName>
+            <Name xml:lang="en">NXD Foundation</Name>
+        </SchemeOperatorName>
+        <SchemeOperatorAddress>
+            <PostalAddresses>
+                <PostalAddress xml:lang="en">
+                    <StreetAddress>Bössvägen 28</StreetAddress>
+                    <Locality>Sollentuna, Stockholm</Locality>
+                    <PostalCode>19255</PostalCode>
+                    <CountryName>SE</CountryName>
+                </PostalAddress>
+            </PostalAddresses>
+            <ElectronicAddress>
+                <URI xml:lang="en">mailto:info@nxd.foundation</URI>
+            </ElectronicAddress>
+        </SchemeOperatorAddress>
+        <SchemeName>
+            <Name xml:lang="en">TT:EN_NXD_TrustList</Name>
+        </SchemeName>
+        <SchemeInformationURI />
+        <StatusDeterminationApproach>
+            https://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate/</StatusDeterminationApproach>
+        <SchemeTypeCommunityRules>
+            <URI xml:lang="en">https://uri.etsi.org/TrstSvc/TrustedList/schemerules/EU/</URI>
+        </SchemeTypeCommunityRules>
+        <SchemeTerritory>TT</SchemeTerritory>
+        <PolicyOrLegalNotice />
+        <HistoricalInformationPeriod>0</HistoricalInformationPeriod>
+        <PointersToOtherTSL />
+        <ListIssueDateTime>2025-02-13T01:00:00Z</ListIssueDateTime>
+        <NextUpdate>
+            <dateTime>2025-08-13T00:00:00Z</dateTime>
+        </NextUpdate>
+    </SchemeInformation>
+    <TrustServiceProviderList>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Jacobsons Lumberyard</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Jacobsons Lumberyard</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Jacobsons Lumberyard</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:web:staging-oid4vc.igrant.io:organisation:30e32199-6ab3-4543-99e0-89d3a4db56be:service#c10061fccfe248369c71991ee7c2a36f</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Jacobsons Lumberyard</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <KID>c10061fccfe248369c71991ee7c2a36f</KID>
+                                <JwksURI>
+                                    https://staging-oid4vc.igrant.io/organisation/30e32199-6ab3-4543-99e0-89d3a4db56be/service/jwks</JwksURI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">NXD Issuer (Tests)</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">NXD Issuer (Tests)</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">NXD Issuer (Tests)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <KID>c1226c53800c4a6d918818700ed163d0</KID>
+                                <JwksURI>
+                                    https://oid4vc.igrant.io/organisation/f8a7e3b9-09dc-4e45-88cc-3ce28e42e0ef/service/jwks</JwksURI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">iGrant.io</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">iGrant.io</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnY3wbx9iz4Sydgzu9NcEpchX7wKBQFSyiLuyJk3Dq7pZeBT5Y78VvKexv5rwac5qFAycfrYjmGGdqU3Yphimx4tVj83QnWgqApkpcPWz1UWr9x2KNSCHreT9uJEAEjPUfe#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnY3wbx9iz4Sydgzu9NcEpchX7wKBQFSyiLuyJk3Dq7pZeBT5Y78VvKexv5rwac5qFAycfrYjmGGdqU3Yphimx4tVj83QnWgqApkpcPWz1UWr9x2KNSCHreT9uJEAEjPUfe</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://staging-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <KID>7709b2b1d70c4d8582de53468c9386f5</KID>
+                                <JwksURI>
+                                    https://staging-oid4vc.igrant.io/organisation/4264f05a-e0cd-49cb-bb32-b664e1d0f448/service/jwks</JwksURI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://staging-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+            <!-- iGrant.io -->
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <KID>4b8da6912d8d4e26a7bfc35e299e451d</KID>
+                                <JwksURI>
+                                    https://oid4vc.igrant.io/organisation/445f2b74-cc27-44ef-bed7-4809c13699cf/service/jwks</JwksURI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">iGrant.io</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">iGrant.io</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/WP</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>MIICZjCCAgygAwIBAgIUNez77SgqGviWwgi5y1lL/tMoXrgwCgYIKoZIzj0EAwIwPTEaMBgGA1UEAwwRaUdyYW50LmlvIFRlc3QgQ0ExEjAQBgNVBAoMCWlHcmFudC5pbzELMAkGA1UEBhMCU0UwHhcNMjYwNDAyMTcwMDMwWhcNMjcwNDAyMTcwMDMwWjA7MRgwFgYDVQQDDA9XYWxsZXQgUHJvdmlkZXIxEjAQBgNVBAoMCWlHcmFudC5pbzELMAkGA1UEBhMCU0UwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASXCasM0KD/HBMV+blQmyprTP1l8yA1taPRWqq5mOmY7uzuMDgTrOnsy/dE8COSnx48mIyCZZ4QpaJFgfhDSwMlo4HrMIHoMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgeAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAdBgNVHQ4EFgQU/stckBZBlq9rX/ig1c5VXqVzyukwHwYDVR0jBBgwFoAUFwfZe77t3XzGSBPBA5RfL6KdCDAwbwYDVR0RBGgwZoIQb2lkNHZjLmlncmFudC5pb4ZSaHR0cHM6Ly9vaWQ0dmMuaWdyYW50LmlvL29yZ2FuaXNhdGlvbi80NDVmMmI3NC1jYzI3LTQ0ZWYtYmVkNy00ODA5YzEzNjk5Y2Yvc2VydmljZTAKBggqhkjOPQQDAgNIADBFAiEAkpyi+2iRFz0h3Rzl18Kw/SU3yCKS3ZrO9XMttYgSIJICIDhSaJq4ydUe/n/RLDD1akdPz8EbfKssK25z1nbsYqyp</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Bolagsverket</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Bolagsverket</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bolagsverket</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@bolagsverket.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://bolagsverket.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Bolagsverket</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsE93cvorWMjaz1KhBauwGBygoez489fumvkiis85Jamm7uSi9QTThUZQ4JZUMnmXAjcDrCiMp8LcZCAkqMFFxzjev7gKmqZnywxfcBmon5JNhNsh8zzEqnqcxRWBzRRJvx#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsE93cvorWMjaz1KhBauwGBygoez489fumvkiis85Jamm7uSi9QTThUZQ4JZUMnmXAjcDrCiMp8LcZCAkqMFFxzjev7gKmqZnywxfcBmon5JNhNsh8zzEqnqcxRWBzRRJvx</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://bolagsverket.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Bolagsverket</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <KID>a500a23ee871478db9890c3332d45e5c</KID>
+                                <JwksURI>
+                                    https://oid4vc.igrant.io/organisation/f31864d0-0454-4adc-bd65-f8bbfbe06dbe/service/jwks</JwksURI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://bolagsverket.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">iGrant.io Marketing</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">iGrant.io Marketing</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://demo-business.igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io Marketing</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbscMFyiuZZDeqX7WnK9u8C22fdKHfciTXJtzUYcHenvsicD7P14UyUYuAwtMufEs9VKWDsbQ3QcoUfy5KxcwnH7UQFKfPBrJLz4xUR8S589PdPcdR7vkipKhAkeCbfYMRBA#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbscMFyiuZZDeqX7WnK9u8C22fdKHfciTXJtzUYcHenvsicD7P14UyUYuAwtMufEs9VKWDsbQ3QcoUfy5KxcwnH7UQFKfPBrJLz4xUR8S589PdPcdR7vkipKhAkeCbfYMRBA</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Piggy Bank</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Piggy Bank</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Piggy Bank AB</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@piggybank.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://piggybank.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Piggy Bank</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp35jKjriYFBMMQ1jcRo6fL8cvR1dxjcbDJURtMGSkfMsW3L1PJ5QimhAjUyRA81hQBQw4WSD8pSGCQjN4kiWxkWYyR626EfUB2D1H3Hz6ysMpkhAg54pvA1gjJseBZJ7a4#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp35jKjriYFBMMQ1jcRo6fL8cvR1dxjcbDJURtMGSkfMsW3L1PJ5QimhAjUyRA81hQBQw4WSD8pSGCQjN4kiWxkWYyR626EfUB2D1H3Hz6ysMpkhAg54pvA1gjJseBZJ7a4</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://piggybank.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Product Demonstrator</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Product Demonstrator</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Product Demonstrator</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Product Demonstrator</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbscWR7zTu64YfRKLPB62sRqeWAgE4twhH8XSG6eQubK4vVH5PJAvz8Gwip5NppzX365PEhB7NaNv2cHpDCSfZzk4GCeGi9PNGA8gX12XNU8tfXMvaMah2uQkp5mT2xWRWAp#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbscWR7zTu64YfRKLPB62sRqeWAgE4twhH8XSG6eQubK4vVH5PJAvz8Gwip5NppzX365PEhB7NaNv2cHpDCSfZzk4GCeGi9PNGA8gX12XNU8tfXMvaMah2uQkp5mT2xWRWAp</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Fast Ferries</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Fast Ferries</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Fast Ferries</StreetAddress>
+                            <Locality>Athens</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>GR</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@fastferries.com.gr</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://fastferries.com.gr</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Fast Ferries</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbpeasbXXXxeLdXdgA9aK85JqqagS4BDGfbUXe7GGcB14iExX5RheqevAa6swVY4vMk8bAiJz2ReZfeYr2tkQjXB6Ar3DfVzDb6you2H7bYQGhbSjw62xLShU5UZzwV8McLt#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbpeasbXXXxeLdXdgA9aK85JqqagS4BDGfbUXe7GGcB14iExX5RheqevAa6swVY4vMk8bAiJz2ReZfeYr2tkQjXB6Ar3DfVzDb6you2H7bYQGhbSjw62xLShU5UZzwV8McLt</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://fastferries.com.gr/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Banca Transilvania</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Banca Transilvania</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Banca Transilvania</StreetAddress>
+                            <Locality>Cluj-Napoca</Locality>
+                            <PostalCode>400000</PostalCode>
+                            <CountryName>RO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@bancatransilvania.ro</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://bancatransilvania.ro</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Banca Transilvania</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnAaher6Eu8C2CXhd7BGAeJbXeXYCMFstPtQ95wVWr8YudL1NbYLA3Q42dFf9o2QuWSDHV3zAEQPvaxFQY62Kb4aDpujJfiAGPzasfWG54m2K8c1HZUyoG5tNhLCzDSWfbS#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnAaher6Eu8C2CXhd7BGAeJbXeXYCMFstPtQ95wVWr8YudL1NbYLA3Q42dFf9o2QuWSDHV3zAEQPvaxFQY62Kb4aDpujJfiAGPzasfWG54m2K8c1HZUyoG5tNhLCzDSWfbS</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://bancatransilvania.ro/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Data4Diabetes</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbptKqLYofyFWMr3zxgrFxmddiXpmwdkSHJrtkHRoWZhnzsMMX2pMjkzTYvGNdpci4phTMwLcDCsWcJcK1397kmxuix56LrQgCwqZ5Jbeinf2ygSycBqHDVSXMP2zUfwG7bz#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbptKqLYofyFWMr3zxgrFxmddiXpmwdkSHJrtkHRoWZhnzsMMX2pMjkzTYvGNdpci4phTMwLcDCsWcJcK1397kmxuix56LrQgCwqZ5Jbeinf2ygSycBqHDVSXMP2zUfwG7bz</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">OmniSoftory Engineering S.A.</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">OmniSoftory Engineering S.A.</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>OmniSoftory Engineering S.A.</StreetAddress>
+                            <Locality>Zurich</Locality>
+                            <PostalCode>8000</PostalCode>
+                            <CountryName>CH</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@omnisoftory.ch</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.omnisoftory.ch</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">OmniSoftory Engineering S.A.</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbponH3ZQ24tWBsjcSzDucUBsjCNdBk4yMMBbDHcG2qybY7do2zf81P9EowvXVb5mc7VANVfBmTgQb1rpdktxq8k7mPK6fSVGRMVdCPVfGagDkB39rjx84pAsooXu8stMug8#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbponH3ZQ24tWBsjcSzDucUBsjCNdBk4yMMBbDHcG2qybY7do2zf81P9EowvXVb5mc7VANVfBmTgQb1rpdktxq8k7mPK6fSVGRMVdCPVfGagDkB39rjx84pAsooXu8stMug8</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.omnisoftory.ch/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>CRANE d-HDSI</StreetAddress>
+                            <Locality>Bössvägen 28</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@nxd.foundation</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://staging-dataspace.nxd.foundation</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbo1kmxHUJdHsWnY37enVJqmU6cpEGSRfr3sawuy2JjS6MpkML7fSgqK8cRqxFVj9e3sCtrQdZetkoVkwDc8nf7KAV15Hi3u5XjLNnQnSc6gYRumLvg8wDEwMdRe1taJpGMJ#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbo1kmxHUJdHsWnY37enVJqmU6cpEGSRfr3sawuy2JjS6MpkML7fSgqK8cRqxFVj9e3sCtrQdZetkoVkwDc8nf7KAV15Hi3u5XjLNnQnSc6gYRumLvg8wDEwMdRe1taJpGMJ</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://staging-dataspace.nxd.foundation/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Medtronic</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Medtronic</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Route du Molliau</StreetAddress>
+                            <Locality>Tolochenaz</Locality>
+                            <PostalCode>1131</PostalCode>
+                            <CountryName>CH</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@medtronic.com</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.medtronic.com</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Medtronic</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbt27dEv5d72YqRzYXgAp9vwd13MkohRBuNrVLoTuWsTPX4kgN5aAenNaBVqLLcz77FehW9VqG6QPkrt7VmbwdNL7yXs2aLBo6n64LdLZ4V7RCzo5yjRVPEZ8ZWwKek2dvhi#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbt27dEv5d72YqRzYXgAp9vwd13MkohRBuNrVLoTuWsTPX4kgN5aAenNaBVqLLcz77FehW9VqG6QPkrt7VmbwdNL7yXs2aLBo6n64LdLZ4V7RCzo5yjRVPEZ8ZWwKek2dvhi</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.medtronic.com/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Dexcom</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Dexcom</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Hogehilweg 15</StreetAddress>
+                            <Locality>Amsterdam</Locality>
+                            <PostalCode>1101 CB</PostalCode>
+                            <CountryName>NL</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@dexcom.com</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.dexcom.com</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Dexcom</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrT2xnuVHWsbXzHrMygcAxhCafUryctGFVFg7Hm1mnFM2QzPmRktNd6KzgRAspS3wHHQr57KNrkK57ByAXWPeygySMp6EWUcusE6MruTSqFjJhtpxDYUxAZSLVmLLZQUMDE#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrT2xnuVHWsbXzHrMygcAxhCafUryctGFVFg7Hm1mnFM2QzPmRktNd6KzgRAspS3wHHQr57KNrkK57ByAXWPeygySMp6EWUcusE6MruTSqFjJhtpxDYUxAZSLVmLLZQUMDE</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.dexcom.com/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">University A</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">University A</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>University A Campus</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@universitya.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://universitya.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">University A</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KboivGsVNXcz8gTwhuhxJCbSjcfaKLZ41BsH92sBihdL721Geji8xVFatNonnsmMvZwR88D3JXzVCcRohWKrr4jAD4FGPFiirENMAynZkypuppcK9xdpjhcjfiNgDFUKE6Z2#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KboivGsVNXcz8gTwhuhxJCbSjcfaKLZ41BsH92sBihdL721Geji8xVFatNonnsmMvZwR88D3JXzVCcRohWKrr4jAD4FGPFiirENMAynZkypuppcK9xdpjhcjfiNgDFUKE6Z2</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://universitya.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Relying Party</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Relying Party</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Relying Party AB</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@relyingparty.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://relyingparty.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Employment Agency</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbo1Sabx8J4A7uk6XTzkxu9MDknyYT6EFtevMwcgpRCXyggau2J9uWQiYFSpgPhf7CqS8ZSDCA1u3DbPpfKUc4GkAjJwhjNQzor5WaSKZ9qU3xJFasAXRGRNz5E7egHTjQHr#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbo1Sabx8J4A7uk6XTzkxu9MDknyYT6EFtevMwcgpRCXyggau2J9uWQiYFSpgPhf7CqS8ZSDCA1u3DbPpfKUc4GkAjJwhjNQzor5WaSKZ9qU3xJFasAXRGRNz5E7egHTjQHr</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://employmentagency.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">University B</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">University B</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>University B Campus</StreetAddress>
+                            <Locality>Berlin</Locality>
+                            <PostalCode>10115</PostalCode>
+                            <CountryName>DE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@universityb.de</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://universityb.de</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">University B</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrNPNby4kbh8pFzijNAPPGJjaqTT2VwQcwYpV2GYkEFQGqkLEgCA6e4d5RSSZD8BvjzEiw8KjKTs8uykHxRE3tiuJ6B2MMVf7bfvAvGsTCxrnAP9e936UKyEYz2UKs7EX88#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrNPNby4kbh8pFzijNAPPGJjaqTT2VwQcwYpV2GYkEFQGqkLEgCA6e4d5RSSZD8BvjzEiw8KjKTs8uykHxRE3tiuJ6B2MMVf7bfvAvGsTCxrnAP9e936UKyEYz2UKs7EX88</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://universityb.de/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Brønnøysund Register Centre</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Brønnøysund Register Centre</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Havnegata 48</StreetAddress>
+                            <Locality>Brønnøysund</Locality>
+                            <PostalCode>8900</PostalCode>
+                            <CountryName>NO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:post@brreg.no</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.brreg.no</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Brønnøysund Register Centre</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.brreg.no/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>CRANE d-HDSI</StreetAddress>
+                            <Locality>Bössvägen 28</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@nxd.foundation</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://demo-dataspace.nxd.foundation</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">CRANE d-HDSI Data Marketplace</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqCS2PxVkb87SFnFj64sqbqcYSTDjznJKYuHmiRqYqTZMfTKLKU3ajgRhn7G9Ain79nTiXUaQ1gr2uyQu8DcwkhA2FRfsG4unxreDBf3CiwvhwDQteCPeJaZ17ZHevywmqW#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqCS2PxVkb87SFnFj64sqbqcYSTDjznJKYuHmiRqYqTZMfTKLKU3ajgRhn7G9Ain79nTiXUaQ1gr2uyQu8DcwkhA2FRfsG4unxreDBf3CiwvhwDQteCPeJaZ17ZHevywmqW</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-dataspace.nxd.foundation/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Nordic Health Innovation</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Nordic Health Innovation</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Drottninggatan 94</StreetAddress>
+                            <Locality>Drottninggatan 94</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@nxd.foundation</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://demo-dataspace.nxd.foundation</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Nordic Health Innovation</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqW5bhN4mEfsqmXSzCeCcPyG4FLMXqx9q9TTTw4F4Fpi9z4C8VGj25u2bMV3AitqaNWtwNLSpTgB59EMgc5aPTnU7LDPR45osyydW8tCxM69f6JsEQbhFQYRSbthNnW2W5i#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqW5bhN4mEfsqmXSzCeCcPyG4FLMXqx9q9TTTw4F4Fpi9z4C8VGj25u2bMV3AitqaNWtwNLSpTgB59EMgc5aPTnU7LDPR45osyydW8tCxM69f6JsEQbhFQYRSbthNnW2W5i</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-dataspace.nxd.foundation/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Data Analysis AB</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Data Analysis AB</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Forskargatan 15</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>11428</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@dataanalysis.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.dataanalysis.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Data Analysis AB</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqShiVy9HdZLzhfwBsnW4ZTQtKv8jqSU3LzYzyWjgZUGbWRPeWGFPys5VHKHeKVTht7TMyW23bLSmcQ5c8G1r4Ezbhkb3TjZBH7vYVbA5xaFD9nAMi4FEKc9ecSLMRoMbhe#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqShiVy9HdZLzhfwBsnW4ZTQtKv8jqSU3LzYzyWjgZUGbWRPeWGFPys5VHKHeKVTht7TMyW23bLSmcQ5c8G1r4Ezbhkb3TjZBH7vYVbA5xaFD9nAMi4FEKc9ecSLMRoMbhe</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.dataanalysis.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Medtronic</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Medtronic</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Route du Molliau</StreetAddress>
+                            <Locality>Tolochenaz</Locality>
+                            <PostalCode>1131</PostalCode>
+                            <CountryName>CH</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@medtronic.com</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.medtronic.com</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Medtronic</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kboo6SguGdBdT9s2thbsofTNEPi9iA2bPQWaxzpgkWpaZD6gkjhMhoNpBqJmxhEYToPLidJ54W86hC7A7Ex2Y5XBErb6uemGTfQAwutRDQYkQUrpbbiCVb7vHFCK5MLEkhwz#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kboo6SguGdBdT9s2thbsofTNEPi9iA2bPQWaxzpgkWpaZD6gkjhMhoNpBqJmxhEYToPLidJ54W86hC7A7Ex2Y5XBErb6uemGTfQAwutRDQYkQUrpbbiCVb7vHFCK5MLEkhwz</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.medtronic.com/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Data4Diabetes</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Data4Diabetes</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbshHHZBqRyFEcdvjc1papv5LMzFSL766GkzgiWXk3uLaK4zB4yNd6JD4Thwo8sFUSQSNkek48fRdfLUAFU7nWZBK3ihaxJzrawCM8Xso1GUF5sfa8ot7NEyhX69HFMbak1i#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbshHHZBqRyFEcdvjc1papv5LMzFSL766GkzgiWXk3uLaK4zB4yNd6JD4Thwo8sFUSQSNkek48fRdfLUAFU7nWZBK3ihaxJzrawCM8Xso1GUF5sfa8ot7NEyhX69HFMbak1i</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Dexcom</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Dexcom</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Hogehilweg 15</StreetAddress>
+                            <Locality>Amsterdam</Locality>
+                            <PostalCode>1101 CB</PostalCode>
+                            <CountryName>NL</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@dexcom.com</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.dexcom.com</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Dexcom</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbpFzNPw8G8jxG1QGMSVZgtJQvF2S5UfwzNGRTA11ny1s5ePEX2zRrCCEVCakfdNA7TfERjRQAhfxqN3faMZ6wX2ZcCwfYGfWhhNduUTmPqTgtm6vpFytZMi2ZHfZEw4J4dJ#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbpFzNPw8G8jxG1QGMSVZgtJQvF2S5UfwzNGRTA11ny1s5ePEX2zRrCCEVCakfdNA7TfERjRQAhfxqN3faMZ6wX2ZcCwfYGfWhhNduUTmPqTgtm6vpFytZMi2ZHfZEw4J4dJ</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.dexcom.com/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Banca Transilvania</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Banca Transilvania</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Banca Transilvania</StreetAddress>
+                            <Locality>Cluj-Napoca</Locality>
+                            <PostalCode>400000</PostalCode>
+                            <CountryName>RO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@bancatransilvania.ro</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://bancatransilvania.ro</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Banca Transilvania</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <KID>46291cf8460e477caf0263637cb90788</KID>
+                                <JwksURI>
+                                    https://oid4vc.igrant.io/organisation/0e067503-a76d-48e3-9a49-31dc3410f7e1/service/jwks</JwksURI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://bancatransilvania.ro/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Nordic Energy Services AB</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Nordic Energy Services AB</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Energigatan 22</StreetAddress>
+                            <Locality>Göteborg</Locality>
+                            <PostalCode>41118</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@nordicenergy.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.nordicenergy.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Nordic Energy Services AB</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbo1kzyY5zGqFTqsrs8FkMzhBZ59aFT1ofJb39RCQ1PbAHRh1VvvTarkYoA62CEyvrsR635DbK1DfqUBtpWog5NSqawqweoBL2T6g1eQoMpNXSWzBsxdCXT22y6QPAwE5KGY#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbo1kzyY5zGqFTqsrs8FkMzhBZ59aFT1ofJb39RCQ1PbAHRh1VvvTarkYoA62CEyvrsR635DbK1DfqUBtpWog5NSqawqweoBL2T6g1eQoMpNXSWzBsxdCXT22y6QPAwE5KGY</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.nordicenergy.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Bygg AB</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Bygg AB</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Byggvägen 123</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>11122</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@byggab.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://byggab.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Bygg AB</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqGzgorKKxEX6hgcqxtbpMHq19tNgTgBpCBvp2kjDVxpPVDA3AdXQgSwvBxNc2v5VnMMkLLVUtAbmNKAz5DJiQ1zaEcY9DE7BiKxrHkT3mP7UHXUk295bt8RgzYeWJER3wA#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqGzgorKKxEX6hgcqxtbpMHq19tNgTgBpCBvp2kjDVxpPVDA3AdXQgSwvBxNc2v5VnMMkLLVUtAbmNKAz5DJiQ1zaEcY9DE7BiKxrHkT3mP7UHXUk295bt8RgzYeWJER3wA</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://byggab.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">WeCare Insurance</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">WeCare Insurance</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Försäkringsgatan 10</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>11120</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@wecareinsurance.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://wecareinsurance.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">WeCare Insurance</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbq8K138vnGEh91u7vpNxSu2HXdWd6X1978k2g73uEgz8ANzQx9jE6wWZqtHnfDYyfE4BgWyPdzsjFWzX32yChkDKqzAD8FQiTemAwX6kNxAoCPo6uZXLXGVhae5CrHNo7LQ#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbq8K138vnGEh91u7vpNxSu2HXdWd6X1978k2g73uEgz8ANzQx9jE6wWZqtHnfDYyfE4BgWyPdzsjFWzX32yChkDKqzAD8FQiTemAwX6kNxAoCPo6uZXLXGVhae5CrHNo7LQ</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://wecareinsurance.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Código4D</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Código4D</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Carlos G. Amaro Da Luz (self-employed)</StreetAddress>
+                            <Locality>Spain</Locality>
+                            <PostalCode>00000</PostalCode>
+                            <CountryName>ES</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:carlos@codigo4d.es</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://codigo4d.es</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Código4D</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqffUfGKh4uwLv7WbD3i9eemShzm7Hdi6rKtCvubsN35UMCyohNZExAKGLsb3zWX1xjk1TdKUjjdQyrN9CM28mYyt67AzQWo7AuRfXJNrC1VJ9kRWRCk8R4PkGTKfW2XANQ#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbqffUfGKh4uwLv7WbD3i9eemShzm7Hdi6rKtCvubsN35UMCyohNZExAKGLsb3zWX1xjk1TdKUjjdQyrN9CM28mYyt67AzQWo7AuRfXJNrC1VJ9kRWRCk8R4PkGTKfW2XANQ</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://codigo4d.es/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Brønnøysundregistrene</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Brønnøysundregistrene</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Havnegata 48</StreetAddress>
+                            <Locality>Brønnøysund</Locality>
+                            <PostalCode>8900</PostalCode>
+                            <CountryName>NO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:post@brreg.no</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.brreg.no</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Brønnøysundregistrene</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrDSRER7KGdytw5VR9pCW8WS4xG8RzpZvmMYCxUijXrgnxGTv4zxQH3xXyv6ShcctmCu13jhNruKSEHUgmsqZVCuitJUZUrPM1NPZKwcGNsh1v8d1d6mgD5i3iyKTXen1uW</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.brreg.no/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Tellu AS</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Tellu AS</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Lysaker Torg 15</StreetAddress>
+                            <Locality>Lysaker</Locality>
+                            <PostalCode>1366</PostalCode>
+                            <CountryName>NO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:post@tellu.no</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.tellu.no</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Tellu AS</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbn9wsQxt9JveRHhB6B5Q9Qt9EiMoXDh1JZqeUFvc2q17jG5JeyJWhH3hvaZqPGWS8HCR6WtkBMqBZTp976pgfKdGCibebHy4DSSf3HtxJYoyq9xQHzMCXVJ6z7yRk3fktrY#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbn9wsQxt9JveRHhB6B5Q9Qt9EiMoXDh1JZqeUFvc2q17jG5JeyJWhH3hvaZqPGWS8HCR6WtkBMqBZTp976pgfKdGCibebHy4DSSf3HtxJYoyq9xQHzMCXVJ6z7yRk3fktrY</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.tellu.no/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">WE BUILD Consortium</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">WE BUILD Consortium</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>WE BUILD Consortium</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>1000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@webuildconsortium.eu</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.webuildconsortium.eu</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">WE BUILD Consortium</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsPqB3TzeLipZuc94mcyjrBkUtahg4UNvnvzS5dzHhj6ocKYJePvwhUYkeSVHy1BXT6gy4M1oZj6ttoNfN3fTErkFyDsQKCN28mXZ2fcVmaF3sMAEv8FpFaXosHQAvunYqS#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsPqB3TzeLipZuc94mcyjrBkUtahg4UNvnvzS5dzHhj6ocKYJePvwhUYkeSVHy1BXT6gy4M1oZj6ttoNfN3fTErkFyDsQKCN28mXZ2fcVmaF3sMAEv8FpFaXosHQAvunYqS</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.webuildconsortium.eu/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">ECG247 AS</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">ECG247 AS</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Senterveien 30</StreetAddress>
+                            <Locality>Lillesand</Locality>
+                            <PostalCode>4790</PostalCode>
+                            <CountryName>NO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@ecg247.com</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://ecg247.com</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">ECG247 AS</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbohzAGJeUyihVoGf3LuFoRuaJCQRj51zaMDt14TRoRNQCtTmDJoUvxtqHb4C6qwWCL4vUs7MURu1hHTSqFJgALgaCgyiriegREfuzZMHnspJdUTJe3yQt6MyC2rQ4xW6DW4#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbohzAGJeUyihVoGf3LuFoRuaJCQRj51zaMDt14TRoRNQCtTmDJoUvxtqHb4C6qwWCL4vUs7MURu1hHTSqFJgALgaCgyiriegREfuzZMHnspJdUTJe3yQt6MyC2rQ4xW6DW4</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://ecg247.com/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Infogreffe</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Infogreffe</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Infogreffe</StreetAddress>
+                            <Locality>Paris</Locality>
+                            <PostalCode>75001</PostalCode>
+                            <CountryName>FR</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@infogreffe.fr</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.infogreffe.fr</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Infogreffe</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsPbzqUte5jhaGsJ34Q5BsAi7UL15ArhmVDHzbQRBBNLV4BTHtRMmPNt4HYDWKKWcHSrztawUmZeummgzvYFBpBTpPfEZQxnP26MWTzUbjMfn4utCzBQB3pXfeUdLSPPy7J#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsPbzqUte5jhaGsJ34Q5BsAi7UL15ArhmVDHzbQRBBNLV4BTHtRMmPNt4HYDWKKWcHSrztawUmZeummgzvYFBpBTpPfEZQxnP26MWTzUbjMfn4utCzBQB3pXfeUdLSPPy7J</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.infogreffe.fr/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">ShareID</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">ShareID</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>20bis Rue Louis Philippe</StreetAddress>
+                            <Locality>Neuilly-sur-Seine</Locality>
+                            <PostalCode>92200</PostalCode>
+                            <CountryName>FR</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:contact@shareid.ai</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.shareid.ai</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">ShareID</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>MIICkjCCAjmgAwIBAgIJALvQ9Q8GeGkAMAoGCCqGSM49BAMCMFExCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQYXJpczEQMA4GA1UECgwHU2hhcmVJRDELMAkGA1UECwwCSVQxEzARBgNVBAMMClNoYXJlSUQgQ0EwHhcNMjYwNDA5MTYzMzA2WhcNMjcwNDA5MTYzMzA2WjBoMQswCQYDVQQGEwJGUjEPMA0GA1UECAwGRnJhbmNlMQ4wDAYDVQQHDAVQYXJpczEQMA4GA1UECgwHU2hhcmVJRDELMAkGA1UECwwCSVQxGTAXBgNVBAMMEFNoYXJlSUQgVmVyaWZpZXIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQwrrIPnDOMX2JsG6XW2opz78hZCCja+5rMMITSwgqmslth92k/PxPUZQLX27lPY+QMNpmK77MaNeZdYO3Oa7oXo4HiMIHfMAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/BAQDAgeAMH8GA1UdEQR4MHaCC3NoYXJlaWQubmV0gg52Mi5zaGFyZWlkLm5ldIIPZGV2LnNoYXJlaWQubmV0ghJkZXYtdjIuc2hhcmVpZC5uZXSCMmdpbGRhLXVuZWx1Y2lkYXRpbmctbm9uZ3JlZ2FyaW91c2x5Lm5ncm9rLWZyZWUuZGV2MB0GA1UdDgQWBBSzgiDPSolL7sqWDZMz+tTMwE1/XjAfBgNVHSMEGDAWgBQHX2tbX2DlXGvkhfdYkyNcyVJJrDAKBggqhkjOPQQDAgNHADBEAiAwzSRZOjud2z3ckAfQmE23F2CxGOhfiOBuDonSnh4F5AIgaMvXdbp21lhKLVcmYilX0c5dy8tGpUQAVSeMHtm+l3I=</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.shareid.ai/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+            </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">ShareID</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">ShareID</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>20bis Rue Louis Philippe</StreetAddress>
+                            <Locality>Neuilly-sur-Seine</Locality>
+                            <PostalCode>92200</PostalCode>
+                            <CountryName>FR</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:contact@shareid.ai</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.shareid.ai</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">ShareID</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>MIICkTCCAjegAwIBAgIJALvQ9Q8GeGj/MAoGCCqGSM49BAMCMFExCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQYXJpczEQMA4GA1UECgwHU2hhcmVJRDELMAkGA1UECwwCSVQxEzARBgNVBAMMClNoYXJlSUQgQ0EwHhcNMjYwNDA5MTYzMjQ2WhcNMjcwNDA5MTYzMjQ2WjBmMQswCQYDVQQGEwJGUjEPMA0GA1UECAwGRnJhbmNlMQ4wDAYDVQQHDAVQYXJpczEQMA4GA1UECgwHU2hhcmVJRDELMAkGA1UECwwCSVQxFzAVBgNVBAMMDlNoYXJlSUQgSXNzdWVyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECNfR/yC4XhlHgMLk9U0BH0NLg/FIhLxzHc16rC1x6o8lkvZTauHBLfhK+rZrGZ0gTGZ3ctV9y3D3Sx/KGoulwaOB4jCB3zAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDB/BgNVHREEeDB2ggtzaGFyZWlkLm5ldIIOdjIuc2hhcmVpZC5uZXSCD2Rldi5zaGFyZWlkLm5ldIISZGV2LXYyLnNoYXJlaWQubmV0gjJnaWxkYS11bmVsdWNpZGF0aW5nLW5vbmdyZWdhcmlvdXNseS5uZ3Jvay1mcmVlLmRldjAdBgNVHQ4EFgQUERMz6Pqa08wqUXorr20CJJGzRskwHwYDVR0jBBgwFoAUB19rW19g5Vxr5IX3WJMjXMlSSawwCgYIKoZIzj0EAwIDSAAwRQIgV9QUkqOcj0bg+WcrVejJd4/ar1YE9sbJgv/U/tn1UO0CIQCtTvv1oODmw+NCk3m5/IwStl+seVODSY6POaOA64GVKg==</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://www.shareid.ai/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Nordic Health Innovation</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Nordic Health Innovation</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Drottninggatan 94</StreetAddress>
+                            <Locality>Drottninggatan 94</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@nxd.foundation</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://demo-dataspace.nxd.foundation</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Nordic Health Innovation</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp39rPegYtirmcbVxudyWDFWmbqr5xb5WTrG6dngfc7pLgDNiAVmwUVm27Y1kc7UQSQNukJRKrbqugooXxRKP2SC3nFdJWm9WDNRqPJXhb3hS5CTUAK77yhiZThu2MFj4yr#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp39rPegYtirmcbVxudyWDFWmbqr5xb5WTrG6dngfc7pLgDNiAVmwUVm27Y1kc7UQSQNukJRKrbqugooXxRKP2SC3nFdJWm9WDNRqPJXhb3hS5CTUAK77yhiZThu2MFj4yr</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-dataspace.nxd.foundation/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Piggy Bank</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Piggy Bank</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Piggy Bank AB</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@piggybank.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://piggybank.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Piggy Bank</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp74GnQHKxw9jaUQE4SwesZJdxtNuN8FGi6hh2cLtfNSz6V5c3DFPtEqbhJ2Ed3cuL1bTZppufo4ecA52ZMZBjA5LumdHhTazTMqzwZ9RYks2Aab4hGfhHqy4jqtYvPVSpt#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbp74GnQHKxw9jaUQE4SwesZJdxtNuN8FGi6hh2cLtfNSz6V5c3DFPtEqbhJ2Ed3cuL1bTZppufo4ecA52ZMZBjA5LumdHhTazTMqzwZ9RYks2Aab4hGfhHqy4jqtYvPVSpt</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://piggybank.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Sweden</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Sweden</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Sweden</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsmPR9jrciDWTuBZhCovoaCJTVJc9zjcKyjwyXt9HxvCjp33LxH5kHYjWbPCehnNMUvk4M57ztETwgJqAP8MPxt7uxV6yUy8EqrGQnFzpPBStAJM7Ekvrziv8Gvbg6x4Sha</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Sweden</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <KID>60ca12c9251f4d55840b7c0073594915</KID>
+                                <JwksURI>
+                                    https://oid4vc.igrant.io/organisation/04783e3e-f984-4393-86a7-e3771c9327ff/service/jwks</JwksURI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Belgium</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Belgium</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Rue de la Loi 200</StreetAddress>
+                            <Locality>Brussels, BE</Locality>
+                            <PostalCode>1049</PostalCode>
+                            <CountryName>BE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Belgium</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnYu5dC6hzhFPmqE9BYuS8h3dxdxR1JKzGQGh2hY4hMwjxMtkRcT9Kjget13tSaTy2QPGqLPsJgjfoovpAt3veJX5ozWAa6HCi2xfkv5rHFWiM9oo5z31CrjaLReQzpVQEY</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Belgium</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <KID>78c00bde3c3849478b74d10d0a718fe1</KID>
+                                <JwksURI>
+                                    https://oid4vc.igrant.io/organisation/bd9c2a3a-31a4-4827-9919-db0594291c42/service/jwks</JwksURI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://demo-business.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Bank Issuer</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Bank Issuer</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Bank Issuer</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>MIICcjCCAhigAwIBAgIUX5+O/2PGz6Qdq/Y61D034cQk7ocwCgYIKoZIzj0EAwIwPTEaMBgGA1UEAwwRaUdyYW50LmlvIFRlc3QgQ0ExEjAQBgNVBAoMCWlHcmFudC5pbzELMAkGA1UEBhMCU0UwHhcNMjYwNTA0MTEwNTQ1WhcNMjcwNTA0MTEwNTQ1WjA3MRQwEgYDVQQDDAtCYW5rIElzc3VlcjESMBAGA1UECgwJaUdyYW50LmlvMQswCQYDVQQGEwJTRTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLkF3MdiVyTYZehLUyVBy12AgunNUJSZebauHGtC4ijqfnUysZfFNj88c4xIKDlt0TlOV+NMIiwkYzRShA1jLSqjgfswgfgwfwYDVR0RBHgwdoIYc3RhZ2luZy1vaWQ0dmMuaWdyYW50LmlvhlpodHRwczovL3N0YWdpbmctb2lkNHZjLmlncmFudC5pby9vcmdhbmlzYXRpb24vNjQzNTgyMGItZTc1NS00OTdiLTlhNjEtMzVjNDNjZWM3ZGNjL3NlcnZpY2UwCQYDVR0TBAIwADALBgNVHQ8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB0GA1UdDgQWBBSBvJG/7XVc5gZAp8NwlEak16RmyjAfBgNVHSMEGDAWgBSFiofRzIBuRANGikKxZmSWUoXyzDAKBggqhkjOPQQDAgNIADBFAiEA+DWamVZ1c0akEaT6wj1bIrEVGDtyVFWegFAPHpy02cMCIHWAuuSSsKoqhQTWOJQGckMiOdDOi+d78q7sXWrZhrMQ</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-05-04T11:05:45Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://staging-oid4vc.igrant.io/organisation/6435820b-e755-497b-9a61-35c43cec7dcc/service</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Product Demonstrator</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Product Demonstrator</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Product Demonstrator</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Product Demonstrator</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>MIIChjCCAiygAwIBAgIUe5fvsdUPbBQUq9SjeL5185iN+sAwCgYIKoZIzj0EAwIwTDELMAkGA1UEBhMCU0UxCzAJBgNVBAgMAlNFMRIwEAYDVQQKDAlpR3JhbnQuaW8xHDAaBgNVBAMME2lHcmFudC5pbyBFQUEgRFMgQ0EwHhcNMjYwNDE2MTAyNTA3WhcNMjcwNDE2MTAyNTA3WjBMMQswCQYDVQQGEwJTRTELMAkGA1UECAwCU0UxEjAQBgNVBAoMCWlHcmFudC5pbzEcMBoGA1UEAwwTSXNzdWVyIGJ5IGlHcmFudC5pbzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGyhKvjH0hKJg2dDrhlGEHTQWj3iVumn536Zpi3KdvaPRhX7sVQDZe5ALES8wsKSW7DnKpd7WWVPDmIZ93AA7JOjgeswgegwCQYDVR0TBAIwADALBgNVHQ8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB0GA1UdDgQWBBSzIWtkLmmIKi8KTJR79LJwo+EXVjAfBgNVHSMEGDAWgBTEMk7AUY62pbPazm0y3cDvef+lGzBvBgNVHREEaDBmghBvaWQ0dmMuaWdyYW50LmlvhlJodHRwczovL29pZDR2Yy5pZ3JhbnQuaW8vb3JnYW5pc2F0aW9uLzJmYzRlYzhhLWM0MWQtNDE2NS05MzE0LTdiOTk2OTI3ZjZmMS9zZXJ2aWNlMAoGCCqGSM49BAMCA0gAMEUCIBHCohnANYgmMIdoZxVIGH8HURJ4UMr8oAEQ8tEFZ3odAiEAkK2YxpOAqSjrAkaZINR55kwLtJPWUeVjlsgzDE1wILU=</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-04-16T10:25:07Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://oid4vc.igrant.io/organisation/2fc4ec8a-c41d-4165-9314-7b996927f6f1/service</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Product Demonstrator</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Product Demonstrator</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Product Demonstrator</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>10000</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Product Demonstrator</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>MIICiTCCAi6gAwIBAgIUalpeCXradao16prrsHAd0Vna0vswCgYIKoZIzj0EAwIwTDELMAkGA1UEBhMCU0UxCzAJBgNVBAgMAlNFMRIwEAYDVQQKDAlpR3JhbnQuaW8xHDAaBgNVBAMME2lHcmFudC5pbyBFQUEgRFMgQ0EwHhcNMjYwNDE2MTE1MDA3WhcNMjcwNDE2MTE1MDA3WjBOMQswCQYDVQQGEwJTRTELMAkGA1UECAwCU0UxEjAQBgNVBAoMCWlHcmFudC5pbzEeMBwGA1UEAwwVVmVyaWZpZXIgYnkgaUdyYW50LmlvMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEbX+717FnhvI8Tik6As/H8jqAGlwvMSZfRPp6RzYyOMMGGP1ivS5ps2OlTHzOVixhgxHWntwA4sNVCajT2FAt76OB6zCB6DAJBgNVHRMEAjAAMAsGA1UdDwQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwHQYDVR0OBBYEFD5Q3EezKKnR4TPbnovKr7auFg+KMB8GA1UdIwQYMBaAFMQyTsBRjrals9rObTLdwO95/6UbMG8GA1UdEQRoMGaCEG9pZDR2Yy5pZ3JhbnQuaW+GUmh0dHBzOi8vb2lkNHZjLmlncmFudC5pby9vcmdhbmlzYXRpb24vMmZjNGVjOGEtYzQxZC00MTY1LTkzMTQtN2I5OTY5MjdmNmYxL3NlcnZpY2UwCgYIKoZIzj0EAwIDSQAwRgIhAPrrZ1Y8FHe0FETvxKGl3KT1rZa6FXZWeuIuzSvCUp9sAiEAigJfaNchZ5W6yjPvs1f/qqYyf/ZoHxSw/5fybYnL1kU=</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-04-16T11:50:07Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://oid4vc.igrant.io/organisation/2fc4ec8a-c41d-4165-9314-7b996927f6f1/service</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Fides Community</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Fides Community</Name>
+                </TSPTradeName>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://fides.community/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Fides Community</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>did:web:fides.acc.credenco.com:did:da5a3c99-d45c-4ce2-8065-9db36c98868c#d253facc-daa0-4622-9637-06636aedb091</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-06-25T00:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://fides.community/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+    </TrustServiceProviderList>
+</TrustServiceStatusList>
