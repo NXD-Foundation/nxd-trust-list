@@ -2268,5 +2268,99 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Sweden</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Sweden</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Drottninggatan 12</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>11151</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@sweden.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://sweden.se</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Sweden</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsmPR9jrciDWTuBZhCovoaCJTVJc9zjcKyjwyXt9HxvCjp33LxH5kHYjWbPCehnNMUvk4M57ztETwgJqAP8MPxt7uxV6yUy8EqrGQnFzpPBStAJM7Ekvrziv8Gvbg6x4Sha#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbsmPR9jrciDWTuBZhCovoaCJTVJc9zjcKyjwyXt9HxvCjp33LxH5kHYjWbPCehnNMUvk4M57ztETwgJqAP8MPxt7uxV6yUy8EqrGQnFzpPBStAJM7Ekvrziv8Gvbg6x4Sha</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-07-08T00:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://sweden.se/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Belgium</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Belgium</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Rue de la Loi 16</StreetAddress>
+                            <Locality>Brussels</Locality>
+                            <PostalCode>1000</PostalCode>
+                            <CountryName>BE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@belgium.be</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://belgium.be</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Belgium</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnYu5dC6hzhFPmqE9BYuS8h3dxdxR1JKzGQGh2hY4hMwjxMtkRcT9Kjget13tSaTy2QPGqLPsJgjfoovpAt3veJX5ozWAa6HCi2xfkv5rHFWiM9oo5z31CrjaLReQzpVQEY#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbnYu5dC6hzhFPmqE9BYuS8h3dxdxR1JKzGQGh2hY4hMwjxMtkRcT9Kjget13tSaTy2QPGqLPsJgjfoovpAt3veJX5ozWAa6HCi2xfkv5rHFWiM9oo5z31CrjaLReQzpVQEY</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-07-08T00:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://belgium.be/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
