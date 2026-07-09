@@ -1,0 +1,52 @@
+name: Publish trust lists
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "onboarding/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-trust-lists
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Generate and sign trust lists
+        env:
+          NXD_TL_SIGNING_KEY: ${{ secrets.NXD_TL_SIGNING_KEY }}
+          NXD_TL_SIGNING_CERT: ${{ secrets.NXD_TL_SIGNING_CERT }}
+          # monotonically increasing sequence number per publication
+          NXD_TL_SEQUENCE: ${{ github.run_number }}
+        run: |
+          test -n "$NXD_TL_SIGNING_KEY" || { echo "::error::NXD_TL_SIGNING_KEY secret not set"; exit 1; }
+          uv run python scripts/generate_lists.py
+
+      - name: Commit published lists
+        run: |
+          git config user.name "nxd-trust-list-bot"
+          git config user.email "info@nxd.foundation"
+          git add trust-lists/
+          if git diff --cached --quiet; then
+            echo "No list changes to publish."
+          else
+            git commit -m "chore: publish signed trust lists (seq ${{ github.run_number }}) [skip ci]"
+            git push
+            git tag "tl-v${{ github.run_number }}"
+            git push origin "tl-v${{ github.run_number }}"
+          fi

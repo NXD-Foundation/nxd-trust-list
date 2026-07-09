@@ -1,0 +1,31 @@
+{
+  "participant_id": "example-corp",
+  "name": "Example Corp AB",
+  "trade_name": "Example Corp",
+  "address": {
+    "street": "Exempelgatan 1",
+    "locality": "Stockholm",
+    "postal_code": "11122",
+    "country": "SE"
+  },
+  "electronic_addresses": [
+    "mailto:trust@example.com",
+    "https://example.com"
+  ],
+  "information_uri": "https://example.com/trust",
+  "services": [
+    {
+      "list": "qeaa",
+      "name": "Example Corp QEAA Issuance",
+      "digital_ids": {
+        "x509_certificates": [
+          "MIIC...base64DER..."
+        ]
+      },
+      "status_starting_time": "2026-07-09T00:00:00Z",
+      "service_supply_points": [
+        "https://example.com/issuer"
+      ]
+    }
+  ]
+}

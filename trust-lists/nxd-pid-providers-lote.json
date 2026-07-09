@@ -1,0 +1,69 @@
+{
+  "LoTE": {
+    "ListAndSchemeInformation": {
+      "LoTEVersionIdentifier": 1,
+      "LoTESequenceNumber": 1,
+      "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList",
+      "SchemeOperatorName": [
+        {
+          "lang": "en",
+          "value": "NXD Foundation"
+        }
+      ],
+      "SchemeOperatorAddress": {
+        "SchemeOperatorPostalAddress": [
+          {
+            "lang": "en",
+            "StreetAddress": "Bössvägen 28",
+            "Locality": "Sollentuna, Stockholm",
+            "PostalCode": "19255",
+            "Country": "SE"
+          }
+        ],
+        "SchemeOperatorElectronicAddress": [
+          {
+            "lang": "en",
+            "uriValue": "mailto:info@nxd.foundation"
+          },
+          {
+            "lang": "en",
+            "uriValue": "https://trustlist.nxd.foundation/"
+          }
+        ]
+      },
+      "SchemeName": [
+        {
+          "lang": "en",
+          "value": "TT:EN_NXD Foundation - PID Providers"
+        }
+      ],
+      "SchemeInformationURI": [
+        {
+          "lang": "en",
+          "uriValue": "https://trustlist.nxd.foundation/"
+        },
+        {
+          "lang": "en",
+          "uriValue": "https://github.com/NXD-Foundation/nxd-trust-list"
+        }
+      ],
+      "StatusDeterminationApproach": "http://uri.etsi.org/19602/PIDProvidersList/StatusDetn/EU",
+      "SchemeTypeCommunityRules": [
+        {
+          "lang": "en",
+          "uriValue": "http://uri.etsi.org/19602/PIDProviders/schemerules/EU"
+        }
+      ],
+      "SchemeTerritory": "EU",
+      "ListIssueDateTime": "2026-07-09T00:00:00Z",
+      "NextUpdate": "2027-01-09T00:00:00Z",
+      "DistributionPoints": [
+        "https://trustlist.nxd.foundation/trust-lists/nxd-pid-providers-lote.json"
+      ]
+    }
+  },
+  "signature": {
+    "protected": "eyJhbGciOiJFUzI1NiIsImlhdCI6MTc4MzU5NTcyOSwieDVjIjpbIk1JSUJuekNDQVVhZ0F3SUJBZ0lVVHRVems4eGkzZ1NBZ2Rtak9CM05ndmo3MmJRd0NnWUlLb1pJemowRUF3SXdKakVMTUFrR0ExVUVCaE1DVkZReEZ6QVZCZ05WQkFvTURrNVlSQ0JHYjNWdVpHRjBhVzl1TUI0WERUSTJNRGN3T1RFd01qTTBObG9YRFRJNU1EY3dPREV3TWpNME5sb3dKakVMTUFrR0ExVUVCaE1DVkZReEZ6QVZCZ05WQkFvTURrNVlSQ0JHYjNWdVpHRjBhVzl1TUZrd0V3WUhLb1pJemowQ0FRWUlLb1pJemowREFRY0RRZ0FFUVZUcWs2b0dXTjRHMTVJY09lVzI3UHA0QWtmdTU0a0dhb1QxSk5OQUpibkI3djN6WnUxby85L2dIb3lyTjZZeXU5d3cwZEFVeHNXUFFGY3EyLytVNTZOU01GQXdEZ1lEVlIwUEFRSC9CQVFEQWdiQU1CRUdBMVVkSlFRS01BZ0dCZ1FBa1RjREFEQU1CZ05WSFJNQkFmOEVBakFBTUIwR0ExVWREZ1FXQkJRVnd3Mzd3aGJ3TjNETWlsRjhwU0F0UVJnSXNUQUtCZ2dxaGtqT1BRUURBZ05IQURCRUFpQStJU0p4c0pVdnBnWUd3QXdHbzlsQlc1ZTRaOHh4dWlGeEQ0b2tEbFZBNWdJZ1VVbjNTb0YxMU8yeE84L0c5eFJIUkdFTmdEUXV0QnN0MngyNnR4eDBWRUk9Il19",
+    "signature": "Xj58mfUzsOUpeR4z76URuuIGrNVLEKmFD7sZAxN5hZhvQfg2rEKGtYGJFZeAVj1Sq7GIM6hgVEaMvq2z4kJ0OQ"
+  }
+}

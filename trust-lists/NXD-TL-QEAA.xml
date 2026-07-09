@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" TSLTag="https://uri.etsi.org/19612/TSLTag/" Id="nxd-tl-qeaa-1">
+  <SchemeInformation>
+    <TSLVersionIdentifier>5</TSLVersionIdentifier>
+    <TSLSequenceNumber>1</TSLSequenceNumber>
+    <TSLType>https://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
+    <SchemeOperatorName>
+      <Name xml:lang="en">NXD Foundation</Name>
+    </SchemeOperatorName>
+    <SchemeOperatorAddress>
+      <PostalAddresses>
+        <PostalAddress xml:lang="en">
+          <StreetAddress>Bössvägen 28</StreetAddress>
+          <Locality>Sollentuna, Stockholm</Locality>
+          <PostalCode>19255</PostalCode>
+          <CountryName>SE</CountryName>
+        </PostalAddress>
+      </PostalAddresses>
+      <ElectronicAddress>
+        <URI xml:lang="en">mailto:info@nxd.foundation</URI>
+      </ElectronicAddress>
+    </SchemeOperatorAddress>
+    <SchemeName>
+      <Name xml:lang="en">TT:EN_NXD Foundation - QEAA Providers</Name>
+    </SchemeName>
+    <SchemeInformationURI>
+      <URI xml:lang="en">https://trustlist.nxd.foundation/</URI>
+    </SchemeInformationURI>
+    <StatusDeterminationApproach>https://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate/</StatusDeterminationApproach>
+    <SchemeTypeCommunityRules>
+      <URI xml:lang="en">https://uri.etsi.org/TrstSvc/TrustedList/schemerules/EU/</URI>
+    </SchemeTypeCommunityRules>
+    <SchemeTerritory>TT</SchemeTerritory>
+    <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
+    <ListIssueDateTime>2026-07-09T00:00:00Z</ListIssueDateTime>
+    <NextUpdate>
+      <dateTime>2027-01-09T00:00:00Z</dateTime>
+    </NextUpdate>
+  </SchemeInformation>
+<ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference URI="#nxd-tl-qeaa-1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Yx4C2IYnp4uBjSCOB5nKiditK/SgJV+Lp9yNhOQMsys=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>NcS5WZCysvF0bEI/3/C+HpUryWTOYfzfWX1ZXZsapkMvXLc6KktRcTpZ6f8YwI3gWXSforZF++YZA8WvMeHLDQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIBnzCCAUagAwIBAgIUTtUzk8xi3gSAgdmjOB3Ngvj72bQwCgYIKoZIzj0EAwIw
+JjELMAkGA1UEBhMCVFQxFzAVBgNVBAoMDk5YRCBGb3VuZGF0aW9uMB4XDTI2MDcw
+OTEwMjM0NloXDTI5MDcwODEwMjM0NlowJjELMAkGA1UEBhMCVFQxFzAVBgNVBAoM
+Dk5YRCBGb3VuZGF0aW9uMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQVTqk6oG
+WN4G15IcOeW27Pp4Akfu54kGaoT1JNNAJbnB7v3zZu1o/9/gHoyrN6Yyu9ww0dAU
+xsWPQFcq2/+U56NSMFAwDgYDVR0PAQH/BAQDAgbAMBEGA1UdJQQKMAgGBgQAkTcD
+ADAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQVww37whbwN3DMilF8pSAtQRgIsTAK
+BggqhkjOPQQDAgNHADBEAiA+ISJxsJUvpgYGwAwGo9lBW5e4Z8xxuiFxD4okDlVA
+5gIgUUn3SoF11O2xO8/G9xRHRGENgDQutBst2x26txx0VEI=
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></TrustServiceStatusList>

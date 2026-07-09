@@ -1,0 +1,42 @@
+[project]
+name = "nxd-trust-list"
+version = "1.0.0"
+description = "NXD Foundation trust list generator and signer (ETSI TS 119 612 / TS 119 602)"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=42",
+    "jsonschema[format]>=4.21",
+    "jwcrypto>=1.5",
+    "lxml>=5",
+    "signxml>=3.2",
+]
+
+[dependency-groups]
+dev = [
+    "lxml-stubs>=0.5",
+    "mypy>=1.10",
+    "ruff>=0.5",
+    "types-jsonschema>=4.21",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM", "C4"]
+
+[tool.mypy]
+strict = true
+python_version = "3.12"
+files = ["scripts/generate_lists.py"]
+
+[[tool.mypy.overrides]]
+module = ["jwcrypto.*", "signxml.*"]
+ignore_missing_imports = true
+follow_imports = "skip"

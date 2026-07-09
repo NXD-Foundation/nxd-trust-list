@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="#about">About</a> •
-  <a href="#trust-list">Trust List</a> •
+  <a href="#trust-lists">Trust Lists</a> •
   <a href="#repository-structure">Repository Structure</a> •
   <a href="#onboarding">Onboarding</a> •
   <a href="#service-types">Service Types</a> •
@@ -24,30 +24,50 @@ This repository hosts the **NXD Foundation Trust List**, an open, machine-readab
 
 The Trust List is published as a static XML file via GitHub Pages so it can be fetched and verified by wallets, issuers, and verifiers.
 
-## Trust List
+## Trust Lists
 
-The NXD Foundation Trust List is available at: [https://nxd-foundation.github.io/nxd-trust-list/NXD-TL](https://nxd-foundation.github.io/nxd-trust-list/NXD-TL).
+The NXD Foundation publishes one signed trust list per provider type under
+[`trust-lists/`](trust-lists/):
 
-**NOTE:** Any changes to the Trust List shall only be made via a pull request. See [Onboarding](#onboarding) for the process.
+| List | URL | Format |
+| ---- | --- | ------ |
+| QEAA Providers | [`trust-lists/NXD-TL-QEAA.xml`](https://trustlist.nxd.foundation/trust-lists/NXD-TL-QEAA.xml) | ETSI TS 119 612 XML, XAdES-signed |
+| EAA Providers | [`trust-lists/NXD-TL-EAA.xml`](https://trustlist.nxd.foundation/trust-lists/NXD-TL-EAA.xml) / [JSON](https://trustlist.nxd.foundation/trust-lists/nxd-eaa-providers-lote.json) | ETSI TS 119 602 LoTE, XAdES / JAdES-signed |
+| Pub-EAA Providers | [`trust-lists/NXD-TL-PubEAA.xml`](https://trustlist.nxd.foundation/trust-lists/NXD-TL-PubEAA.xml) / [JSON](https://trustlist.nxd.foundation/trust-lists/nxd-pub-eaa-providers-lote.json) | ETSI TS 119 602 LoTE |
+| PID Providers | [`trust-lists/NXD-TL-PID.xml`](https://trustlist.nxd.foundation/trust-lists/NXD-TL-PID.xml) / [JSON](https://trustlist.nxd.foundation/trust-lists/nxd-pid-providers-lote.json) | ETSI TS 119 602 LoTE |
+| Wallet Providers | [`trust-lists/NXD-TL-WalletProviders.xml`](https://trustlist.nxd.foundation/trust-lists/NXD-TL-WalletProviders.xml) / [JSON](https://trustlist.nxd.foundation/trust-lists/nxd-wallet-providers-lote.json) | ETSI TS 119 602 LoTE |
+| WRPAC Providers | [`trust-lists/NXD-TL-WRPAC.xml`](https://trustlist.nxd.foundation/trust-lists/NXD-TL-WRPAC.xml) / [JSON](https://trustlist.nxd.foundation/trust-lists/nxd-wrpac-providers-lote.json) | ETSI TS 119 602 LoTE |
+| WRPRC Providers | [`trust-lists/NXD-TL-WRPRC.xml`](https://trustlist.nxd.foundation/trust-lists/NXD-TL-WRPRC.xml) / [JSON](https://trustlist.nxd.foundation/trust-lists/nxd-wrprc-providers-lote.json) | ETSI TS 119 602 LoTE |
+| Registrars & Registers | [`trust-lists/NXD-TL-Registrars.xml`](https://trustlist.nxd.foundation/trust-lists/NXD-TL-Registrars.xml) / [JSON](https://trustlist.nxd.foundation/trust-lists/nxd-registrars-and-registers-lote.json) | ETSI TS 119 602 LoTE |
+
+The legacy full list [`NXD-TL.xml`](https://trustlist.nxd.foundation/NXD-TL)
+is **frozen**: it is kept for backward compatibility and does not grow.
+
+**NOTE:** Any changes to the trust lists shall only be made via a pull request. See [Onboarding](#onboarding) for the process.
 
 ## Repository Structure
 
 | Path | Description |
 | ---- | ----------- |
-| `NXD-TL.xml` | The Trust List itself — the single source of truth for all registered Trust Service Providers. |
-| `nxd-trust-list-onboarding.md` | Step-by-step guide for adding an organisation to the Trust List. |
+| `trust-lists/` | The signed, generated trust lists (one per provider type). Never edit by hand. |
+| `onboarding/` | Participant registration entries (source of truth) + JSON schema + guide. |
+| `scripts/` | List generator/signer and vendored ETSI schemas. |
+| `.github/workflows/` | CI: PR validation; CD: sign & publish on merge. |
+| `NXD-TL.xml` | Legacy full Trust List (frozen, backward compatibility only). |
+| `nxd-trust-list-onboarding.md` | Legacy onboarding guide for `NXD-TL.xml` (superseded by `onboarding/`). |
 | `TrstSvc/Svctype/` | Definitions for the NXD-specific service types (`PID`, `LPID`, `NPWP`, `LPWP`). |
 | `LICENSE` | Apache 2.0 license. |
 
 ## Onboarding
 
-All participants in the NXD Foundation ecosystem must ensure they are onboarded into the NXD Trust List. Instructions can be found [here](https://nxd-foundation.github.io/nxd-trust-list/nxd-trust-list-onboarding).
+New registrations happen in [`onboarding/`](onboarding/) - see the
+[onboarding guide](onboarding/README.md).
 
 In short:
 
 1. Fork [`NXD-Foundation/nxd-trust-list`](https://github.com/NXD-Foundation/nxd-trust-list).
-2. Add your `<TrustServiceProvider>` entry to `NXD-TL.xml`.
-3. Open a pull request for review by the NXD Foundation team.
+2. Add `onboarding/<your-participant-id>.json` (JSON-schema-validated; X.509 certificates only).
+3. Open a pull request. CI validates the entry; after review and merge, CI regenerates, signs, and publishes the lists.
 
 ## Service Types
 
