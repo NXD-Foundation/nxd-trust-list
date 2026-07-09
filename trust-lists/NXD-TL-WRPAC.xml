@@ -2,7 +2,7 @@
 <TrustedEntitiesList xmlns="http://uri.etsi.org/019602/v1#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" LOTETag="https://uri.etsi.org/19602/LOTETag/" Id="nxd-wrpac-provider-1">
   <ListAndSchemeInformation>
     <LoTEVersionIdentifier>1</LoTEVersionIdentifier>
-    <LoTESequenceNumber>1</LoTESequenceNumber>
+    <LoTESequenceNumber>2</LoTESequenceNumber>
     <LoTEType>http://uri.etsi.org/19602/LoTEType/EUWRPACProvidersList</LoTEType>
     <SchemeOperatorName>
       <Name xml:lang="en">
@@ -39,13 +39,13 @@
     <PolicyOrLegalNotice>
       <LoTEPolicy xml:lang="en">https://trustlist.nxd.foundation/</LoTEPolicy>
     </PolicyOrLegalNotice>
-    <ListIssueDateTime>2026-07-09T00:00:00Z</ListIssueDateTime>
+    <ListIssueDateTime>2026-07-09T11:30:03Z</ListIssueDateTime>
     <NextUpdate>
-      <dateTime>2027-01-09T00:00:00Z</dateTime>
+      <dateTime>2027-01-09T11:30:03Z</dateTime>
     </NextUpdate>
   </ListAndSchemeInformation>
   <TrustedEntitiesList/>
-<ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference URI="#nxd-wrpac-provider-1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Aa9f2vz2pf+9Bji7nzXmQ0bd174QdgD0tSReQpN9paA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>0pIdeJuoCxyJgNr35DebfKaIUWlCjxqvU4IOPxqy03O1L1bxYNDglzGRgCjEW6WhCD4FrRPotD7QopiusVloTw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIBnzCCAUagAwIBAgIUTtUzk8xi3gSAgdmjOB3Ngvj72bQwCgYIKoZIzj0EAwIw
+<ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference URI="#nxd-wrpac-provider-1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>dtGMDmXxrDGJNSiZt0PpxM193rTYnayzxJ2XdspWp9s=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Di1saiixV4hynQUzqApWJZcpTvFonFGCAQM2RxcfgWNKBuAfD1kWJMUV9EB4M1W5vWzRwAUs6g5H/gVJcQFrRg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIBnzCCAUagAwIBAgIUTtUzk8xi3gSAgdmjOB3Ngvj72bQwCgYIKoZIzj0EAwIw
 JjELMAkGA1UEBhMCVFQxFzAVBgNVBAoMDk5YRCBGb3VuZGF0aW9uMB4XDTI2MDcw
 OTEwMjM0NloXDTI5MDcwODEwMjM0NlowJjELMAkGA1UEBhMCVFQxFzAVBgNVBAoM
 Dk5YRCBGb3VuZGF0aW9uMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQVTqk6oG
