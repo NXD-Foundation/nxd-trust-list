@@ -18,11 +18,11 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      # NXD_TL_PUSH_TOKEN: PAT of a branch-protection bypass user, needed to
-      # push the signed lists to the protected main branch.
+      # NXD_TL_DEPLOY_KEY: write deploy key; deploy keys bypass the main
+      # branch ruleset so the workflow can push the signed lists.
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.NXD_TL_PUSH_TOKEN || github.token }}
+          ssh-key: ${{ secrets.NXD_TL_DEPLOY_KEY }}
 
       - uses: astral-sh/setup-uv@v5
         with:
