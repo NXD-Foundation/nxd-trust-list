@@ -2238,39 +2238,6 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="en">Fides Community</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Fides Community</Name>
-                </TSPTradeName>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://fides.community/</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Fides Community</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-                                <DID>did:web:fides.acc.credenco.com:did:da5a3c99-d45c-4ce2-8065-9db36c98868c#d253facc-daa0-4622-9637-06636aedb091</DID>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2026-06-25T00:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://fides.community/</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
                     <Name xml:lang="en">Sweden</Name>
                 </TSPName>
                 <TSPTradeName>
