@@ -3496,5 +3496,33 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Developer Org</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Developer Org</Name>
+                </TSPTradeName>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Developer Org</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <DID>
+                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbr3nRSEEvfm8gd987YqY2CDHSxiHr7bnarTFi5Qit3NmwB9nWfFGFj8BEb2NdWQ7QJ2WWz1eHF57LSer43SK6DVWZggZ9mUMdqUfni7oJUfdcSpP5ENvfDJVkYdpvqXY8Y4#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9Kbr3nRSEEvfm8gd987YqY2CDHSxiHr7bnarTFi5Qit3NmwB9nWfFGFj8BEb2NdWQ7QJ2WWz1eHF57LSer43SK6DVWZggZ9mUMdqUfni7oJUfdcSpP5ENvfDJVkYdpvqXY8Y4</DID>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2026-07-16T00:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
