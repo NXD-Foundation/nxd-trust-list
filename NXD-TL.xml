@@ -2250,7 +2250,7 @@
             <TSPServices>
                 <TSPService>
                     <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/WRPAC</ServiceTypeIdentifier>
                         <ServiceName>
                             <Name xml:lang="en">Fides Community</Name>
                         </ServiceName>
