@@ -3504,6 +3504,19 @@
                 <TSPTradeName>
                     <Name xml:lang="en">Developer Org</Name>
                 </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bössvägen 28</StreetAddress>
+                            <Locality>Sollentuna, Stockholm</Locality>
+                            <PostalCode>19255</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:support@igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
             </TSPInformation>
             <TSPServices>
                 <TSPService>
