@@ -3537,5 +3537,48 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Banca Transilvania</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Banca Transilvania</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Calea Dorobantilor 30-36</StreetAddress>
+                            <Locality>Cluj-Napoca</Locality>
+                            <PostalCode>400117</PostalCode>
+                            <CountryName>RO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">https://oid4vc.igrant.io</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://oid4vc.igrant.io</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Banca Transilvania</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-06-24T13:29:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
