@@ -836,53 +836,6 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="en">University A</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">University A</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>University A Campus</StreetAddress>
-                            <Locality>Stockholm</Locality>
-                            <PostalCode>10000</PostalCode>
-                            <CountryName>SE</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:info@universitya.se</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://universitya.se</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">University A</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-                                <DID>
-                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KboivGsVNXcz8gTwhuhxJCbSjcfaKLZ41BsH92sBihdL721Geji8xVFatNonnsmMvZwR88D3JXzVCcRohWKrr4jAD4FGPFiirENMAynZkypuppcK9xdpjhcjfiNgDFUKE6Z2#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KboivGsVNXcz8gTwhuhxJCbSjcfaKLZ41BsH92sBihdL721Geji8xVFatNonnsmMvZwR88D3JXzVCcRohWKrr4jAD4FGPFiirENMAynZkypuppcK9xdpjhcjfiNgDFUKE6Z2</DID>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://universitya.se/</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
                     <Name xml:lang="en">Relying Party</Name>
                 </TSPName>
                 <TSPTradeName>
@@ -922,53 +875,6 @@
                         <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
                         <ServiceSupplyPoints>
                             <ServiceSupplyPoint>https://employmentagency.se/</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">University B</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">University B</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>University B Campus</StreetAddress>
-                            <Locality>Berlin</Locality>
-                            <PostalCode>10115</PostalCode>
-                            <CountryName>DE</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:info@universityb.de</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://universityb.de</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">University B</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-                                <DID>
-                                    did:key:z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrNPNby4kbh8pFzijNAPPGJjaqTT2VwQcwYpV2GYkEFQGqkLEgCA6e4d5RSSZD8BvjzEiw8KjKTs8uykHxRE3tiuJ6B2MMVf7bfvAvGsTCxrnAP9e936UKyEYz2UKs7EX88#z2dmzD81cgPx8Vki7JbuuMmFYrWPgYoytykUZ3eyqht1j9KbrNPNby4kbh8pFzijNAPPGJjaqTT2VwQcwYpV2GYkEFQGqkLEgCA6e4d5RSSZD8BvjzEiw8KjKTs8uykHxRE3tiuJ6B2MMVf7bfvAvGsTCxrnAP9e936UKyEYz2UKs7EX88</DID>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://universityb.de/</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
                     </ServiceInformation>
                 </TSPService>
