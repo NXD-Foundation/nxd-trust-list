@@ -2,7 +2,7 @@
   "LoTE": {
     "ListAndSchemeInformation": {
       "LoTEVersionIdentifier": 1,
-      "LoTESequenceNumber": 2,
+      "LoTESequenceNumber": 1,
       "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUWalletProvidersList",
       "SchemeOperatorName": [
         {
@@ -34,7 +34,7 @@
       "SchemeName": [
         {
           "lang": "en",
-          "value": "TT:EN_NXD Foundation - Wallet Providers"
+          "value": "EU:EN_NXD Foundation - Wallet Providers"
         }
       ],
       "SchemeInformationURI": [
@@ -55,15 +55,15 @@
         }
       ],
       "SchemeTerritory": "EU",
-      "ListIssueDateTime": "2026-07-09T11:30:03Z",
-      "NextUpdate": "2027-01-09T11:30:03Z",
+      "ListIssueDateTime": "2026-07-21T08:18:50Z",
+      "NextUpdate": "2027-01-21T08:18:50Z",
       "DistributionPoints": [
         "https://trustlist.nxd.foundation/trust-lists/nxd-wallet-providers-lote.json"
       ]
     }
   },
   "signature": {
-    "protected": "eyJhbGciOiJFUzI1NiIsImlhdCI6MTc4MzU5NjYwMywieDVjIjpbIk1JSUJuekNDQVVhZ0F3SUJBZ0lVVHRVems4eGkzZ1NBZ2Rtak9CM05ndmo3MmJRd0NnWUlLb1pJemowRUF3SXdKakVMTUFrR0ExVUVCaE1DVkZReEZ6QVZCZ05WQkFvTURrNVlSQ0JHYjNWdVpHRjBhVzl1TUI0WERUSTJNRGN3T1RFd01qTTBObG9YRFRJNU1EY3dPREV3TWpNME5sb3dKakVMTUFrR0ExVUVCaE1DVkZReEZ6QVZCZ05WQkFvTURrNVlSQ0JHYjNWdVpHRjBhVzl1TUZrd0V3WUhLb1pJemowQ0FRWUlLb1pJemowREFRY0RRZ0FFUVZUcWs2b0dXTjRHMTVJY09lVzI3UHA0QWtmdTU0a0dhb1QxSk5OQUpibkI3djN6WnUxby85L2dIb3lyTjZZeXU5d3cwZEFVeHNXUFFGY3EyLytVNTZOU01GQXdEZ1lEVlIwUEFRSC9CQVFEQWdiQU1CRUdBMVVkSlFRS01BZ0dCZ1FBa1RjREFEQU1CZ05WSFJNQkFmOEVBakFBTUIwR0ExVWREZ1FXQkJRVnd3Mzd3aGJ3TjNETWlsRjhwU0F0UVJnSXNUQUtCZ2dxaGtqT1BRUURBZ05IQURCRUFpQStJU0p4c0pVdnBnWUd3QXdHbzlsQlc1ZTRaOHh4dWlGeEQ0b2tEbFZBNWdJZ1VVbjNTb0YxMU8yeE84L0c5eFJIUkdFTmdEUXV0QnN0MngyNnR4eDBWRUk9Il19",
-    "signature": "pAi2cHARp-ndsEy9bmBYzO_p0D1I0wahtFvMP7pbjsG9HIF5_J0pH1dmUbsW-PpcqXyJf1evza0C3ofZJArn0Q"
+    "protected": "eyJhbGciOiJFUzI1NiIsImlhdCI6MTc4NDYyMTkzMCwieDVjIjpbIk1JSUJuekNDQVVhZ0F3SUJBZ0lVVHRVems4eGkzZ1NBZ2Rtak9CM05ndmo3MmJRd0NnWUlLb1pJemowRUF3SXdKakVMTUFrR0ExVUVCaE1DVkZReEZ6QVZCZ05WQkFvTURrNVlSQ0JHYjNWdVpHRjBhVzl1TUI0WERUSTJNRGN3T1RFd01qTTBObG9YRFRJNU1EY3dPREV3TWpNME5sb3dKakVMTUFrR0ExVUVCaE1DVkZReEZ6QVZCZ05WQkFvTURrNVlSQ0JHYjNWdVpHRjBhVzl1TUZrd0V3WUhLb1pJemowQ0FRWUlLb1pJemowREFRY0RRZ0FFUVZUcWs2b0dXTjRHMTVJY09lVzI3UHA0QWtmdTU0a0dhb1QxSk5OQUpibkI3djN6WnUxby85L2dIb3lyTjZZeXU5d3cwZEFVeHNXUFFGY3EyLytVNTZOU01GQXdEZ1lEVlIwUEFRSC9CQVFEQWdiQU1CRUdBMVVkSlFRS01BZ0dCZ1FBa1RjREFEQU1CZ05WSFJNQkFmOEVBakFBTUIwR0ExVWREZ1FXQkJRVnd3Mzd3aGJ3TjNETWlsRjhwU0F0UVJnSXNUQUtCZ2dxaGtqT1BRUURBZ05IQURCRUFpQStJU0p4c0pVdnBnWUd3QXdHbzlsQlc1ZTRaOHh4dWlGeEQ0b2tEbFZBNWdJZ1VVbjNTb0YxMU8yeE84L0c5eFJIUkdFTmdEUXV0QnN0MngyNnR4eDBWRUk9Il19",
+    "signature": "DmV0YgPSdnQnkjWQKJ_Z4-MH4O4Aij1qeNTs9TokZ-crto165VFvhWUx5RA-IKDIcEhe9Vufg1yytUkE7hgEAA"
   }
 }

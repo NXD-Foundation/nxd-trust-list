@@ -90,7 +90,7 @@ def lote_config(tl_type: str, xml: str, json_file: str, label: str,
         "tl_type": tl_type,
         "xml": xml,
         "json": json_file,
-        "scheme_name": f"TT:EN_NXD Foundation - {label}",
+        "scheme_name": f"EU:EN_NXD Foundation - {label}",
         "lote_type": f"{ETSI_19602}/LoTEType/EU{etsi_name}",
         "status_detn": f"{ETSI_19602}/{etsi_name}/StatusDetn/EU",
         "rules": rules or f"{ETSI_19602}/{etsi_name}/schemerules/EU",
@@ -105,7 +105,7 @@ LISTS = {
     "qeaa": {
         "tl_type": "qeaa-provider",
         "xml": "NXD-TL-QEAA.xml",
-        "scheme_name": "TT:EN_NXD Foundation - QEAA Providers",
+        "scheme_name": "EU:EN_NXD Foundation - QEAA Providers",
     },
     "eaa": lote_config(
         "eaa-provider", "NXD-TL-EAA.xml", "nxd-eaa-providers-lote.json",

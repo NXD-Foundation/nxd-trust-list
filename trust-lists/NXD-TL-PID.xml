@@ -2,7 +2,7 @@
 <TrustedEntitiesList xmlns="http://uri.etsi.org/019602/v1#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" LOTETag="https://uri.etsi.org/19602/LOTETag/" Id="nxd-pid-provider-1">
   <ListAndSchemeInformation>
     <LoTEVersionIdentifier>1</LoTEVersionIdentifier>
-    <LoTESequenceNumber>2</LoTESequenceNumber>
+    <LoTESequenceNumber>1</LoTESequenceNumber>
     <LoTEType>http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList</LoTEType>
     <SchemeOperatorName>
       <Name xml:lang="en">
@@ -25,7 +25,7 @@
     </SchemeOperatorAddress>
     <SchemeName>
       <Name xml:lang="en">
-        <NonEmptyNormalizedString>TT:EN_NXD Foundation - PID Providers</NonEmptyNormalizedString>
+        <NonEmptyNormalizedString>EU:EN_NXD Foundation - PID Providers</NonEmptyNormalizedString>
       </Name>
     </SchemeName>
     <SchemeInformationURI>
@@ -39,13 +39,13 @@
     <PolicyOrLegalNotice>
       <LoTEPolicy xml:lang="en">https://trustlist.nxd.foundation/</LoTEPolicy>
     </PolicyOrLegalNotice>
-    <ListIssueDateTime>2026-07-09T11:30:03Z</ListIssueDateTime>
+    <ListIssueDateTime>2026-07-21T08:18:50Z</ListIssueDateTime>
     <NextUpdate>
-      <dateTime>2027-01-09T11:30:03Z</dateTime>
+      <dateTime>2027-01-21T08:18:50Z</dateTime>
     </NextUpdate>
   </ListAndSchemeInformation>
   <TrustedEntitiesList/>
-<ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference URI="#nxd-pid-provider-1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Jwo9yjZlg+umSZGpMVugWoeDYboxPRVCJS6cY1LAqUI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>jyExLo01sUZJ1Y/Tub4eSJL8RDF5WP1s9TwDCFHpJAIFCUPUFzOAiNnCSJ0b9HUJ5GecFu8p5veuRKYavdylUg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIBnzCCAUagAwIBAgIUTtUzk8xi3gSAgdmjOB3Ngvj72bQwCgYIKoZIzj0EAwIw
+<ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference URI="#nxd-pid-provider-1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Bj82/3FLJfHZPmLnrmBztdbdS8HLlu/sqmV3ULBdCoo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>iAbW9d/5wx6HRLBEi0WC6jbj6h5N2w2ckIWTgfKJPwrVsHGrIuBgo8BWCYIp4O81VsFyJLEDYGH5laBRdOS2+w==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIBnzCCAUagAwIBAgIUTtUzk8xi3gSAgdmjOB3Ngvj72bQwCgYIKoZIzj0EAwIw
 JjELMAkGA1UEBhMCVFQxFzAVBgNVBAoMDk5YRCBGb3VuZGF0aW9uMB4XDTI2MDcw
 OTEwMjM0NloXDTI5MDcwODEwMjM0NlowJjELMAkGA1UEBhMCVFQxFzAVBgNVBAoM
 Dk5YRCBGb3VuZGF0aW9uMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQVTqk6oG

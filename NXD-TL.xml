@@ -25,7 +25,7 @@
             </ElectronicAddress>
         </SchemeOperatorAddress>
         <SchemeName>
-            <Name xml:lang="en">TT:EN_NXD_TrustList</Name>
+            <Name xml:lang="en">EU:EN_NXD_TrustList</Name>
         </SchemeName>
         <SchemeInformationURI />
         <StatusDeterminationApproach>

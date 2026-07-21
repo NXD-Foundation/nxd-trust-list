@@ -2,7 +2,7 @@
 <TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" TSLTag="https://uri.etsi.org/19612/TSLTag/" Id="nxd-tl-qeaa-1">
   <SchemeInformation>
     <TSLVersionIdentifier>5</TSLVersionIdentifier>
-    <TSLSequenceNumber>2</TSLSequenceNumber>
+    <TSLSequenceNumber>1</TSLSequenceNumber>
     <TSLType>https://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
     <SchemeOperatorName>
       <Name xml:lang="en">NXD Foundation</Name>
@@ -21,7 +21,7 @@
       </ElectronicAddress>
     </SchemeOperatorAddress>
     <SchemeName>
-      <Name xml:lang="en">TT:EN_NXD Foundation - QEAA Providers</Name>
+      <Name xml:lang="en">EU:EN_NXD Foundation - QEAA Providers</Name>
     </SchemeName>
     <SchemeInformationURI>
       <URI xml:lang="en">https://trustlist.nxd.foundation/</URI>
@@ -32,12 +32,12 @@
     </SchemeTypeCommunityRules>
     <SchemeTerritory>TT</SchemeTerritory>
     <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
-    <ListIssueDateTime>2026-07-09T11:30:03Z</ListIssueDateTime>
+    <ListIssueDateTime>2026-07-21T08:18:50Z</ListIssueDateTime>
     <NextUpdate>
-      <dateTime>2027-01-09T11:30:03Z</dateTime>
+      <dateTime>2027-01-21T08:18:50Z</dateTime>
     </NextUpdate>
   </SchemeInformation>
-<ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference URI="#nxd-tl-qeaa-1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>mmrdhY+ol1sBRLGDFh/uZMFGMKOEPVuNbT3HiPSViu4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>g8T6OC7EFPuu2mnxIp/KE0PTFT7sXTptS6MNcAAEiszAEq3JDcMNYK2yldohHTfSM/QkOluTQSSlpeDbDNV1Bw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIBnzCCAUagAwIBAgIUTtUzk8xi3gSAgdmjOB3Ngvj72bQwCgYIKoZIzj0EAwIw
+<ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference URI="#nxd-tl-qeaa-1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>n4o6cHjPGOhEPt8HId/09UIgNctYRyAdAdowMIcFp20=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>2FhiEAeH7xMl5N/ySiI50diSR57VVoJWuE8PGwU4DNo0eEu96vvRfgZAK6EaIl2LqiJttbZEDkMLd43DjAKrqg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIBnzCCAUagAwIBAgIUTtUzk8xi3gSAgdmjOB3Ngvj72bQwCgYIKoZIzj0EAwIw
 JjELMAkGA1UEBhMCVFQxFzAVBgNVBAoMDk5YRCBGb3VuZGF0aW9uMB4XDTI2MDcw
 OTEwMjM0NloXDTI5MDcwODEwMjM0NlowJjELMAkGA1UEBhMCVFQxFzAVBgNVBAoM
 Dk5YRCBGb3VuZGF0aW9uMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQVTqk6oG
