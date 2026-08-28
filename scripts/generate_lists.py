@@ -128,7 +128,7 @@ LISTS = {
         "WRPRC Providers", "WRPRCProvidersList", "WRPRC/Issuance"),
     "registrars": lote_config(
         "ebwoid-provider", "NXD-TL-Registrars.xml", "nxd-registrars-and-registers-lote.json",
-        "Registrars and Registers", "RegistrarsAndRegistersList", "Register"),
+        "EBWOID Providers", "RegistrarsAndRegistersList", "Register"),
 }
 
 
