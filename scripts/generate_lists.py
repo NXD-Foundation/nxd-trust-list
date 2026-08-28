@@ -80,7 +80,7 @@ OPERATOR: Operator = {
 }
 
 QEAA_SVC_TYPE = "http://uri.etsi.org/TrstSvc/Svctype/EAA/Q"
-QEAA_SVC_STATUS = "https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/"
+QEAA_SVC_STATUS = "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/"
 
 
 def lote_config(tl_type: str, xml: str, json_file: str, label: str,
@@ -316,14 +316,14 @@ def build_qeaa_tsl(participants: list[dict[str, Any]], issue: str, nxt: str,
                    sequence: int) -> bytes:
     nsmap = cast("dict[str, str]", {None: TSL_NS, "ds": DS_NS})
     root = etree.Element(q("TrustServiceStatusList"), nsmap=nsmap)
-    root.set("TSLTag", "https://uri.etsi.org/19612/TSLTag/")
+    root.set("TSLTag", "http://uri.etsi.org/19612/TSLTag/")
     root.set("Id", "nxd-tl-qeaa-1")
     sub = make_sub(q)
 
     si = etree.SubElement(root, q("SchemeInformation"))
     sub(si, "TSLVersionIdentifier", "5")
     sub(si, "TSLSequenceNumber", str(sequence))
-    sub(si, "TSLType", "https://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric")
+    sub(si, "TSLType", "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric")
     sub(sub(si, "SchemeOperatorName"), "Name", OPERATOR["name"], lang="en")
     add_address(sub, sub(si, "SchemeOperatorAddress"),
                 OPERATOR["street"], OPERATOR["locality"],
@@ -331,9 +331,9 @@ def build_qeaa_tsl(participants: list[dict[str, Any]], issue: str, nxt: str,
     sub(sub(si, "SchemeName"), "Name", LISTS["qeaa"]["scheme_name"], lang="en")
     sub(sub(si, "SchemeInformationURI"), "URI", f"{PAGES}/", lang="en")
     sub(si, "StatusDeterminationApproach",
-        "https://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate/")
+        "http://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate/")
     sub(sub(si, "SchemeTypeCommunityRules"), "URI",
-        "https://uri.etsi.org/TrstSvc/TrustedList/schemerules/EU/", lang="en")
+        "http://uri.etsi.org/TrstSvc/TrustedList/schemerules/EU/", lang="en")
     sub(si, "SchemeTerritory", "TT")
     sub(si, "HistoricalInformationPeriod", "65535")
     sub(si, "ListIssueDateTime", issue)
@@ -456,7 +456,7 @@ def build_lote_xml(cfg: dict[str, str], ents: list[dict[str, Any]], issue: str,
                    nxt: str, sequence: int) -> bytes:
     nsmap = cast("dict[str, str]", {None: LOTE_NS, "ds": DS_NS})
     root = etree.Element(lq("TrustedEntitiesList"), nsmap=nsmap)
-    root.set("LOTETag", "https://uri.etsi.org/19602/LOTETag/")
+    root.set("LOTETag", "http://uri.etsi.org/19602/LOTETag/")
     root.set("Id", f"nxd-{cfg['tl_type']}-1")
     sub = make_sub(lq)
 
